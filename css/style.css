@@ -1,26 +1,33 @@
 * {
   text-decoration: none;
 }
+body {
+  background-color: #f2f3f5;
+}
 
-.navbar1 {
+.nav-bar-top {
   color: #a9a9a9;
   background-color: #0b0b31;
 }
 
-.navdiv1 {
+.nav-div-top {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding-left: 2rem;
   padding-right: 2rem;
-  font-size: 0.75rem;
+  font-size: 0.5rem;
 }
 
-.navdiv1 li {
+.nav-div-top li {
   list-style: none;
   display: inline-block;
 }
 
 a {
   color: #a9a9a9;
+}
+
+.nav-bar-main {
+  color: #ffffff;
 }
