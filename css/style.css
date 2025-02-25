@@ -1,0 +1,26 @@
+* {
+  text-decoration: none;
+}
+
+.navbar1 {
+  color: #a9a9a9;
+  background-color: #0b0b31;
+}
+
+.navdiv1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  font-size: 0.75rem;
+}
+
+.navdiv1 li {
+  list-style: none;
+  display: inline-block;
+}
+
+a {
+  color: #a9a9a9;
+}
