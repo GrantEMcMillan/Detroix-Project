@@ -24,10 +24,28 @@ body {
   display: inline-block;
 }
 
-a {
+.nav-div-top a {
   color: #a9a9a9;
 }
 
 .nav-bar-main {
+  color: #ffffff;
+}
+
+.nav-div-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  font-size: 1rem;
+}
+
+.nav-div-main li {
+  list-style: none;
+  display: inline-block;
+}
+
+.nav-div-main a {
   color: #ffffff;
 }
