@@ -90,14 +90,17 @@ body {
   display: flex;
 }
 
+.cards a {
+  color: #ffffff;
+}
+
 /*SMART Card*/
 .smart {
-  display: flex;
   flex-direction: column;
   border-top: solid black 1px;
   border-right: solid black 1px;
   width: 33%;
-  padding: 1rem;
+  padding: 1.5rem;
 }
 
 .smart p {
@@ -113,15 +116,14 @@ body {
   color: #ffffff;
   background-color: #0b0b31;
   border-radius: 0.25rem;
-  padding: 0.25rem 0.75rem;
+  padding: 0.4rem;
   font-size: 0.9rem;
-  width: 35%;
+  width: fit-content;
   margin-top: 1rem;
 }
 
 /*STRONG Card*/
 .strong {
-  display: flex;
   flex-direction: column;
   border-top: solid black 1px;
   border-right: solid black 1px;
@@ -142,15 +144,14 @@ body {
   color: #ffffff;
   background-color: #0b0b31;
   border-radius: 0.25rem;
-  padding: 0.25rem 0.75rem;
+  padding: 0.4rem;
   font-size: 0.9rem;
-  width: 35%;
+  width: fit-content;
   margin-top: 1rem;
 }
 
 /*STABLE Card*/
 .stable {
-  display: flex;
   flex-direction: column;
   border-top: solid black 1px;
 
@@ -171,12 +172,57 @@ body {
   color: #ffffff;
   background-color: #0b0b31;
   border-radius: 0.25rem;
-  padding: 0.25rem 0.75rem;
+  padding: 0.4rem;
   font-size: 0.9rem;
-  width: 35%;
+  width: fit-content;
   margin-top: 1rem;
 }
 
-.cards a {
+/*Info Cards Container*/
+.info-cards {
+  display: flex;
+  background: rgb(28, 45, 64);
+  background: linear-gradient(
+    135deg,
+    rgba(28, 45, 64, 1) 0%,
+    rgba(18, 29, 41, 1) 50%,
+    rgba(15, 24, 33, 1) 100%
+  );
+}
+
+/*Services Card*/
+.services {
+  display: flex;
+  flex-direction: column;
+
+  width: 33%;
+  padding: 1.5rem;
+}
+
+.services a {
   color: #ffffff;
+}
+
+.services h1 {
+  color: #ffffff;
+}
+
+.services ul {
+  list-style: none;
+  padding: 0;
+  color: #a9a9a9;
+}
+
+.services li {
+  margin-bottom: 1rem;
+  font-size: 0.8rem;
+}
+
+.services button {
+  color: #ffffff;
+  background-color: #213349;
+  border-radius: 0.25rem;
+  padding: 0.4rem;
+  font-size: 0.9rem;
+  width: fit-content;
 }
