@@ -100,7 +100,7 @@ body {
   border-top: solid black 1px;
   border-right: solid black 1px;
   width: 33%;
-  padding: 1.5rem;
+  padding: 1rem;
 }
 
 .smart p {
@@ -119,7 +119,7 @@ body {
   padding: 0.4rem;
   font-size: 0.9rem;
   width: fit-content;
-  margin-top: 1rem;
+  margin-top: 10%;
 }
 
 /*STRONG Card*/
@@ -147,7 +147,7 @@ body {
   padding: 0.4rem;
   font-size: 0.9rem;
   width: fit-content;
-  margin-top: 1rem;
+  margin-top: 10%;
 }
 
 /*STABLE Card*/
@@ -175,7 +175,7 @@ body {
   padding: 0.4rem;
   font-size: 0.9rem;
   width: fit-content;
-  margin-top: 1rem;
+  margin-top: 10%;
 }
 
 /*Info Cards Container*/
@@ -258,12 +258,87 @@ h3 {
 
 /*NEWS Info Card*/
 .news {
-  display: flex;
-  flex-direction: column;
   width: 33%;
   padding: 1.5rem;
 }
 
 .news h2 {
   color: #ffffff;
+}
+
+.news p {
+  color: #a9a9a9;
+  padding: 0;
+  margin: 0 0 0 0.5rem;
+  font-size: 0.8rem;
+}
+
+/*Nov 21 Section*/
+.nov-21 {
+  display: flex;
+
+  margin-top: 2rem;
+}
+
+.nov-21 h5 {
+  color: #ffffff;
+  margin: 0 0 0 0.5rem;
+}
+
+.nov-21-img img {
+  width: 3.5rem;
+}
+
+/*Nov 09 Section*/
+.nov-09 {
+  display: flex;
+
+  margin-top: 2rem;
+}
+
+.nov-09 h5 {
+  color: #ffffff;
+  margin: 0 0 0 0.5rem;
+}
+
+.nov-09-img img {
+  width: 3.5rem;
+}
+
+/*Nov 17 Section*/
+.nov-17 {
+  display: flex;
+
+  margin-top: 2rem;
+}
+
+.nov-17 h5 {
+  color: #ffffff;
+  margin: 0 0 0 0.5rem;
+}
+
+.nov-17-img img {
+  width: 3.5rem;
+}
+
+/*News Button*/
+.news button {
+  color: #ffffff;
+  background-color: #213349;
+  border-radius: 0.25rem;
+  padding: 0.4rem;
+  font-size: 0.9rem;
+  width: fit-content;
+}
+
+/*Footer*/
+footer {
+  background-color: #0e1e31;
+}
+
+footer p {
+  color: white;
+  margin: 0;
+  padding: 1rem;
+  font-size: 0.75rem;
 }
