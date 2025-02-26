@@ -190,20 +190,19 @@ body {
   );
 }
 
-/*Services Card*/
+.info-cards a {
+  color: #ffffff;
+}
+
+/*SERVICES Info Card*/
 .services {
   display: flex;
   flex-direction: column;
-
   width: 33%;
   padding: 1.5rem;
 }
 
-.services a {
-  color: #ffffff;
-}
-
-.services h1 {
+.services h2 {
   color: #ffffff;
 }
 
@@ -225,4 +224,46 @@ body {
   padding: 0.4rem;
   font-size: 0.9rem;
   width: fit-content;
+  margin-top: auto;
+}
+
+/*OPPORTUNITIES Info Card*/
+.opportunities {
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+  padding: 1.5rem;
+}
+
+.opportunities h2,
+h3 {
+  color: #ffffff;
+}
+.opportunities p {
+  color: #a9a9a9;
+  padding: 0;
+  margin: 0;
+  font-size: 0.8rem;
+}
+
+.opportunities button {
+  color: #ffffff;
+  background-color: #213349;
+  border-radius: 0.25rem;
+  padding: 0.4rem;
+  font-size: 0.9rem;
+  width: fit-content;
+  margin-top: auto;
+}
+
+/*NEWS Info Card*/
+.news {
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+  padding: 1.5rem;
+}
+
+.news h2 {
+  color: #ffffff;
 }
