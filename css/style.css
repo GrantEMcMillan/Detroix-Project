@@ -73,11 +73,27 @@ body {
 }
 
 .circle {
-  color: gray;
   height: 1em;
   width: 1em;
   background-color: #808080;
   border-radius: 50%;
   padding: 0.1rem;
   margin: 0.4rem 0.1rem;
+}
+
+/*Three Cards*/
+.smart {
+  display: flex;
+  flex-direction: column;
+  border-top: solid black 1px;
+  border-right: solid black 1px;
+  width: 33%;
+  padding: 1rem;
+}
+
+.img-smart {
+  width: 90%;
+}
+
+.smart p {
 }
