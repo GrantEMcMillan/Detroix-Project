@@ -160,7 +160,7 @@ body {
 }
 
 .img-stable {
-  width: 80%;
+  width: 83%;
 }
 
 .stable p {
@@ -200,6 +200,7 @@ body {
   flex-direction: column;
   width: 33%;
   padding: 1.5rem;
+  position: relative;
 }
 
 .services h2 {
@@ -224,7 +225,8 @@ body {
   padding: 0.4rem;
   font-size: 0.9rem;
   width: fit-content;
-  margin-top: auto;
+  position: absolute;
+  bottom: 3%;
 }
 
 /*OPPORTUNITIES Info Card*/
@@ -233,6 +235,7 @@ body {
   flex-direction: column;
   width: 33%;
   padding: 1.5rem;
+  position: relative;
 }
 
 .opportunities h2,
@@ -253,13 +256,15 @@ h3 {
   padding: 0.4rem;
   font-size: 0.9rem;
   width: fit-content;
-  margin-top: auto;
+  position: absolute;
+  bottom: 3%;
 }
 
 /*NEWS Info Card*/
 .news {
   width: 33%;
   padding: 1.5rem;
+  position: relative;
 }
 
 .news h2 {
@@ -329,6 +334,8 @@ h3 {
   padding: 0.4rem;
   font-size: 0.9rem;
   width: fit-content;
+  position: absolute;
+  bottom: 3%;
 }
 
 /*Footer*/
