@@ -1,10 +1,14 @@
+/*Remove text-decoration from entire page*/
 * {
   text-decoration: none;
 }
+
+/*Set Page Background Color*/
 body {
   background-color: #f2f3f5;
 }
 
+/*Small Nav Bar at the Top of the Page*/
 .nav-bar-top {
   color: #a9a9a9;
   background-color: #0b0b31;
@@ -28,6 +32,7 @@ body {
   color: #a9a9a9;
 }
 
+/*Main Nav Bar*/
 .nav-bar-main {
   color: #ffffff;
 }
@@ -36,8 +41,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-left: 2rem;
-  padding-right: 2rem;
+  padding: 1rem 2rem;
   font-size: 1rem;
 }
 
@@ -52,4 +56,28 @@ body {
   border-radius: 0.25rem;
   padding: 0.25rem 0.75rem;
   font-size: 0.75rem;
+}
+
+/*Main Image*/
+.main-image {
+  width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*Three Circles*/
+.circle-container {
+  display: flex;
+  justify-content: center;
+}
+
+.circle {
+  color: gray;
+  height: 1em;
+  width: 1em;
+  background-color: #808080;
+  border-radius: 50%;
+  padding: 0.1rem;
+  margin: 0.4rem 0.1rem;
 }
