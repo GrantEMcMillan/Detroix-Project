@@ -81,7 +81,12 @@ body {
   margin: 0.4rem 0.1rem;
 }
 
-/*Three Cards*/
+/*Card Container*/
+.cards {
+  display: flex;
+}
+
+/*SMART Card*/
 .smart {
   display: flex;
   flex-direction: column;
@@ -91,9 +96,57 @@ body {
   padding: 1rem;
 }
 
-.img-smart {
-  width: 90%;
+.smart p {
+  font-size: 0.85rem;
+  color: #808080;
 }
 
-.smart p {
+.img-smart {
+  width: 80%;
+}
+
+.smart button {
+  color: #ffffff;
+  background-color: #0b0b31;
+  border-radius: 0.25rem;
+  padding: 0.25rem 0.75rem;
+  font-size: 0.9rem;
+}
+
+/*STRONG Card*/
+.strong {
+  display: flex;
+  flex-direction: column;
+  border-top: solid black 1px;
+  border-right: solid black 1px;
+  width: 33%;
+  padding: 1rem;
+}
+
+.img-strong {
+  width: 80%;
+}
+
+.strong p {
+  font-size: 0.85rem;
+  color: #808080;
+}
+
+/*STABLE Card*/
+.stable {
+  display: flex;
+  flex-direction: column;
+  border-top: solid black 1px;
+
+  width: 33%;
+  padding: 1rem;
+}
+
+.img-stable {
+  width: 80%;
+}
+
+.stable p {
+  font-size: 0.85rem;
+  color: #808080;
 }
