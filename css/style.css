@@ -50,6 +50,10 @@ body {
   display: inline-block;
 }
 
+.nav-div-main a {
+  color: #ffffff;
+}
+
 .nav-div-main button {
   color: #ffffff;
   background-color: #0b0b31;
@@ -60,7 +64,7 @@ body {
 
 /*Main Image*/
 .main-image {
-  width: 90%;
+  width: 95%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -171,4 +175,8 @@ body {
   font-size: 0.9rem;
   width: 35%;
   margin-top: 1rem;
+}
+
+.cards a {
+  color: #ffffff;
 }
